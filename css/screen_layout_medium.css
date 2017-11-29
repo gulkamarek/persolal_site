@@ -1,0 +1,37 @@
+/* NAVIGATION */
+#logo{
+	font-size: 0.8em;
+}
+nav{
+	height: 40px;
+}
+.mmenu span{
+	margin: 1px 0 0 10px;
+}
+nav ul li{
+	padding: 0 8px 5px 8px;
+	line-height: 40px;
+}
+
+/* PORTFOLIO */
+#portfolio.section-container{
+	height: auto;
+}
+.portfolio-item{
+	flex-basis: 49%;
+	margin-top: 5px;
+}
+#portfolio h2{
+	margin-top: 50px;
+}
+
+/* ABOUT ME */
+#about-me p{
+	padding: 0 20px 0 20px;
+}
+
+/* hide scroll button */
+.scroll-down-button-class{
+	visibility: hidden;
+	display: none;
+}

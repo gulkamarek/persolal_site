@@ -1,0 +1,280 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Personal website" />
+		<meta name="keywords" content="HTML,CSS,Java,JavaScript, Programming, Development" />
+		<meta name="author" content="Marek Gulka" />
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0 , minimum-scale=1.0, initial-scale=1.0" />
+
+		<title>Marek Gulka</title>
+
+		<link href="css/screen_style.css" rel="stylesheet" type="text/css" />
+		<link href="css/screen_layout_large.css" rel="stylesheet" type="text/css" />
+		<link href="css/screen_layout_small.css" rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:500px)" />
+		<link href="css/screen_layout_medium.css" rel="stylesheet" type="text/css" media="only screen and (min-width:501px) and (max-width:800px)" />
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+		<script src="js/main.js"></script>
+		<script src="js/cd-words-wrapper.js"></script>
+		<link href="css/cd-words-wrapper-type.css" rel="stylesheet" type="text/css" />
+
+	</head>
+
+	<body>
+	<div class="page">
+
+		<nav class="mmenu">
+			<div id="nav-page-width">
+				<a id="logo" href="#" onclick="smoothScroll(document.getElementById('welcome'))"><span>Marek <b>Gulka</b></span></a>
+
+				<ul>
+					<li><a href="#skills" onclick="smoothScroll(document.getElementById('skills'))" >Skills</a></li>
+					<li><a href="#portfolio" onclick="smoothScroll(document.getElementById('portfolio'))" >Portfolio</a></li>
+					<li><a href="#about-me"  onclick="smoothScroll(document.getElementById('about-me'))">About Me</a></li>
+					<li><a href="#contact-and-footer"  onclick="smoothScroll(document.getElementById('contact-and-footer'))">Contact</a></li>
+				</ul>
+			</div>
+		</nav><!-- menu -->
+
+		<header></header>
+
+		<div id="welcome" class="section-container">
+		<div class="section-inner-container">
+
+			<h1 class="cd-headline letters type">
+				<span>Hi, I'm Marek. I am ready to <br/></span>
+				<span class="cd-words-wrapper waiting">
+					<b class="is-visible">develop. </b>
+					<b>design. </b>
+					<b>creat. </b>
+					<b>learn. </b>
+				</span>
+			</h1>
+			<br/>
+			<div id="avaliable-sentence-container">
+				<a href="#contact-and-footer" onclick="smoothScroll(document.getElementById('contact-and-footer'))" >
+					<div class="border-container">
+						<h2>YES! I AM AVALIABLE FOR HIRE!</h2>
+					</div>
+				</a>
+			</div>
+		</div>
+		<a id="welcome-scroll" class="scroll-down-button-class" href="#skills" onclick="smoothScroll(document.getElementById('skills'))"><span></span>Scroll</a>
+	</div> <!-- welcome -->
+
+
+	<div id="skills" class="section-container">
+		<div class="section-inner-container">
+
+				<h2>My Skills</h2>
+
+				<div class="skill-item" >
+					<div class="skill-name">
+						<p>Java</p>
+					</div>
+					<div class="skill-bar">
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+								<span class="sr-only">70% Complete</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="skill-item" >
+					<div class="skill-name">
+						<p>OOP</p>
+					</div>
+					<div class="skill-bar">
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+								<span class="sr-only">70% Complete</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="skill-item" >
+					<div class="skill-name">
+						<p>HTML</p>
+					</div>
+					<div class="skill-bar">
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:55%">
+								<span class="sr-only">70% Complete</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="skill-item" >
+					<div class="skill-name">
+						<p>CSS</p>
+					</div>
+					<div class="skill-bar">
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:55%">
+								<span class="sr-only">70% Complete</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="skill-item" >
+					<div class="skill-name">
+						<p>JavaScript</p>
+					</div>
+					<div class="skill-bar">
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:45%">
+								<span class="sr-only">70% Complete</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="skill-item" >
+					<div class="skill-name">
+						<p>GIT</p>
+					</div>
+					<div class="skill-bar">
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+								<span class="sr-only">70% Complete</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="skill-item" >
+					<div class="skill-name">
+						<p>SQL</p>
+					</div>
+					<div class="skill-bar">
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+								<span class="sr-only">70% Complete</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="skill-item" >
+					<div class="skill-name">
+						<p>C++</p>
+					</div>
+					<div class="skill-bar">
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+								<span class="sr-only">70% Complete</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		</div>
+		<a href="#portfolio" class="scroll-down-button-class" onclick="smoothScroll(document.getElementById('portfolio'))"><span></span>Scroll</a>
+		</div><!-- skills -->
+
+
+		<div id="portfolio" class="section-container" onmouseover="hooverDiv()">
+		<div class="section-inner-container">
+
+
+				<h2>Portfolio</h2>
+			<div class="flex-portfolio-container" >
+
+				<div class="portfolio-item" onclick="highlightIt(this)">
+					<h3><span class="flashIt">This website</span></h3>
+					<p>Personal website</p>
+					<h4>JavaScript, html, css</h4>
+				</div>
+
+				<div class="portfolio-item" onclick="OpenInNewTabWinBrowser('https://gulkamarek.github.io/bubbleGame/')">
+					<h3>Bubble Game</h3>
+					<p>Simple game - JavaScript</p>
+					<h4>JavaScript</h4>
+				</div>
+
+				<div class="portfolio-item"  onclick="OpenInNewTabWinBrowser('https://gulkamarek.github.io/T-Rex-game/')">
+					<h3>M-Rex Game</h3>
+					<p>A copy of T-Rex game</p>
+					<h4>JavaScript</h4>
+				</div>
+
+				<div class="portfolio-item" onclick="highlightIt(this)" >
+					<p class="smal-paragraph flashIt">Coming soon</p>
+					<h3>MG-Technologies</h3>
+					<p>A website</p>
+					<h4>JavaScript, html, css</h4>
+				</div>
+
+				<div class="portfolio-item" onclick="highlightIt(this)" >
+					<p class="smal-paragraph flashIt">Coming soon</p>
+					<h3>Words App</h3>
+					<p>App for learning new words in another language</p>
+					<h4>Java, SQL</h4>
+				</div>
+
+				<div class="portfolio-item" onclick="highlightIt(this)"  >
+					<p class="smal-paragraph flashIt">Coming soon</p>
+					<h3>Currency changer</h3>
+					<p>Simple android app</p>
+					<h4>Java</h4>
+				</div>
+
+			</div>
+		</div>
+		<a href="#about-me" class="scroll-down-button-class" onclick="smoothScroll(document.getElementById('about-me'))"><span></span>Scroll</a>
+		</div><!-- portfolio -->
+
+
+		<div id="about-me" class="section-container">
+
+		<div class="section-inner-container">
+				<h2>About Me</h2>
+				<img src="graphics/picture_Marek_Gulka_border_no_backgroung.png" height="150px" />
+				<p>My name is Marek. I am interested in programming and project management.<br/> I have written my first program in highschool in 2008. I have graduated master degree at Warsaw Univertity of Tehnology in 2017. Right now I study software developement on my own. I am always curious, ready to learn new skills and open for new challanges.</p>
+		</div>
+
+		<a href="#contact-and-footer" class="scroll-down-button-class" onclick="smoothScroll(document.getElementById('contact-and-footer'))"><span></span>Scroll</a>
+		</div><!-- about-me -->
+
+
+		<div id="contact-and-footer" class="section-container" >
+
+		<a href="javascript:" id="return-top-button"><p id="return-top-button-sign">^</p></a>
+
+			<div id="contact">
+				<div>
+						<p>I'am currently looking for a job where can I learn by realizing creative projects.</p>
+						<h2>Want to hire me?</h2>
+						<p>Contact with me by e-mail</p>
+						<p>gulkamarek@gmail.com</p>
+				</div>
+			</div>
+
+			<footer id="footer">
+				<ul>
+					<li><a href="https://www.instagram.com/marolovelife/" target="_blank"><img src="graphics/logo_instagram.png" width="30px"/></a></li>
+					<li><a href="https://www.linkedin.com/in/gulkamarek/" target="_blank"><img  src="graphics/logo_LinkedIn.png" width="30px"/></a></li>
+					<li><a href="https://github.com/gulkamarek" target="_blank"><img src="graphics/logo_GitHub.png" width="30px"/></a></li>
+				</ul><br/>
+				<p class="">Handmade by me &copy; 2017.</p>
+			</footer>
+		</div><!-- contact-and-footer -->
+
+	</div><!-- page -->
+	</body>
+
+</html>

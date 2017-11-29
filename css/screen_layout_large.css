@@ -1,0 +1,39 @@
+/* NAVIGATION */
+nav{
+	height: 55px;
+	border-bottom: solid 1px;
+	background: white;
+	position: fixed;
+	width: 100%;
+	z-index: 50;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+}
+nav ul li{
+	margin: 0;
+	padding: 0 20px 0 20px;
+	float: left;
+	line-height: 55px;
+}
+.mmenu span{
+	margin: 5px 0 0 10px;
+}
+/* PORTFOLIO */
+.portfolio-item{
+	flex-basis: 30%;
+	margin-top: 35px;
+}
+#portfolio a.portfolio-item-anchor{
+	flex-basis: 30%;
+	margin-top: 35px;
+}
+
+/* ABOUT ME */
+#about-me p{
+	padding: 0 80px 0 80px;
+}
